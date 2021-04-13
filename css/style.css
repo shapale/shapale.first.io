@@ -1,0 +1,333 @@
+/* import fonts from fonts.css file */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* css variables */
+
+@import url(./partials/_variables.css);
+
+/* import global styling */
+
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar {
+  padding: .4rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+
+.header_area .main-menu .navbar-nav .active a{
+
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* end navigation */
+
+
+/* Start Banner area */
+
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+
+
+.site-main .site-banner .site-title h3::after{
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+
+
+.site-main .site-banner .site-title h1{
+  font-size: 3rem;
+}
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+  padding: 2rem 0;
+  width: 40rem;
+}
+
+
+
+/* End Banner area */
+
+/* Start about area */
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 48px/57px var(--roboto);
+  letter-spacing: 12px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+  padding: .4rem 0;
+}
+
+/* End about area */
+
+/* Start experience area */
+
+
+
+.site-main .experience-area {
+  padding: 1rem 20rem;
+  margin-bottom: 4rem;
+}
+
+.site-main .experience-area .first-row .col-lg-4  {
+  display: flex;
+  justify-content: center;
+}
+
+
+.site-main .experience-area .first-row .col-lg-4 > .single-brand {
+  border: 1px solid var(--title-color);
+  border-radius: 8px;
+  text-align: center;
+  padding: 1.2rem 0rem;
+  margin: .9rem 0;
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform ease;
+}
+
+.site-main .experience-area .first-row .col-lg-4 > .single-brand > img {
+  width: 45%;
+}
+
+.site-main .experience-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.2)
+}
+
+.site-main .experience-area .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(0.15);
+}
+
+.site-main .experience-area .experience-description {
+  padding-left: 10rem;
+}
+
+
+.site-main .experience-area .experience-description span {
+  display: block;
+}
+
+.site-main .experience-area .experience-description .bg-panel {
+  position: absolute;
+  left: -174px; top: 0%;
+  background: #e029290a;
+  width: 350px;
+  height: 370px;
+  margin-left: 340px;
+  z-index: -1;
+}
+
+.site-main .experience-area .experience-description .years-area  {
+  padding-top: 30px;
+}
+
+.site-main .experience-area .experience-description .years-area .years {
+  font: normal bold 84px/40px var(--roboto);
+  color: var(--primary-color2);
+  z-index: 2;
+}
+
+.site-main .experience-area .experience-description .years-area h2 > span {
+  font: normal 600 22px/30px var(--roboto)
+}
+
+.site-main .experience-area .experience-description .skills-area {
+  padding-top: 8px;
+  padding-left: 6rem;
+}
+
+/* End experience area */
+s
+/* Start project area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 16px/20px var(--roboto);
+
+}
+
+.site-main .project-area .grid .img img {
+  width: 25%;
+}
+
+/* .site-main .project-area .grid .img {
+  padding-left: 131.5px;
+} */
+
+.site-main .project-area .grid .our-project .img img:hover {
+  transform: scale(1.4);
+
+}
+
+/* End project area */
+
+
+/* Start courses area */
+
+.site-main .courses-area  {
+  padding: 4rem 0;
+}
+
+.site-main .courses-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.site-main .courses-area .client .client-img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.site-main .courses-area .client  {
+  padding-top: 2rem;
+}
+
+.site-main .courses-area .client  h4{
+  font-size: 16px;
+  font-family: var(--roboto);
+  color: var(--primary-color);
+
+}
+
+.site-main .courses-area .client  p{
+  font-size: 18px;
+  font-family: var(--roboto);
+  color: var(--title-color);
+
+}
+
+.site-main .courses-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1.5rem;
+}
+
+/* End courses area */
+
+/* Start achievements area */
+
+.site-main .achievements-area  {
+  padding: 4rem 0;
+}
+
+.site-main .achievements-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.site-main .achievements-area .client .client-img {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.site-main .achievements-area .client  {
+  padding-top: 2rem;
+}
+
+.site-main .achievements-area .client  h4{
+  font-size: 16px;
+  font-family: var(--roboto);
+  color: var(--primary-color);
+
+}
+
+.site-main .achievements-area .client  p{
+  font-size: 18px;
+  font-family: var(--roboto);
+  color: var(--title-color);
+
+}
+
+.site-main .achievements-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1.5rem;
+}
+
+/* End achievements area */
+
+
+
+
+/* Start contact me area */
+
+.site-main .contact-me-area  {
+  padding: 4rem 0;
+}
+
+
+.site-main .contact-me-area .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color:var(--title-color)
+}
+
+.site-main .contact-me-area .subscribe .social-contact .social-icon {
+  padding:60px 40px;
+}
+
+/* End contact me area */
+
+
+/* Start footer area */
+footer.footer-area {
+  margin-top: 4rem;
+}
+
+/* End footer area */
