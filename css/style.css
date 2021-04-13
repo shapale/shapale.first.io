@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-/* css variables */
+/* CSS variables */
 
 
 
@@ -13,8 +13,6 @@ html, body {
   height: 100%;
 }
 
-
-/* CSS variables */
 
 :root{
   --primary-color: #4458dc;
