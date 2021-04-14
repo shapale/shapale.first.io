@@ -14,7 +14,7 @@
     .site-main .contact-me-area .subscribe
     {
 
-        padding: 2%;
+        padding: 1%;
         margin: 0%;
 
 
@@ -134,7 +134,7 @@
         .site-main .contact-me-area .subscribe
         {
     
-            padding: 2%;
+            padding: 1%;
             margin: 0%;
     
     
@@ -241,9 +241,9 @@
     
     } 
 
-/* if the viewport is equal to 1200px or less than that */ 
+/* if the viewport is equal to 1400px or less than that */
 
-    @media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
 
         /* start main area */ 
         
@@ -254,7 +254,7 @@
             .site-main .contact-me-area .subscribe
             {
         
-                padding: 2%;
+                padding: 1%;
                 margin: 0%;
         
         
@@ -360,4 +360,17 @@
         /* end contact area */ 
         
         } 
-    
+/* if the viewport is equal to 2000px or less than that */
+/* start experience area */
+@media only screen and (max-width: 2100px) {
+    .site-main .experience-area .first-row .col-lg-4 > .single-brand > img {
+                width: 34%;
+            }
+    .site-main .experience-area .experience-description {
+        padding-left: 0;
+    }
+    .site-main .experience-area .experience-description .bg-panel {
+        margin-left: 265px;
+    }
+/* end experience area */
+}
